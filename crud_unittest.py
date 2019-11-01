@@ -56,5 +56,5 @@ myTestSuit = unittest.TestLoader().loadTestsFromTestCase(TestCrud)
 
 if __name__ == "__main__":
     unittest.main()
-    # from HtmlTestRunner import HTMLTestRunner
+    # from HtmlTestRunner import HTMLTestRunner   чето не работает у меня создание хтмлки с результатами тестов(
     # unittest.main(verbosity=2, testRunner=HTMLTestRunner(output=r"F:\test"))
